@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf8e2db9256c7e4a89d5c798a0dcfa5, type: 3}
+  m_Name: BreadData
+  m_EditorClassIdentifier: 
+  DisplayName: Bread
+  UISprite: {fileID: 21300000, guid: f37c6964fc483aa4099d801d063e7139, type: 3}
+  ItemPrefab: {fileID: 9069273249578455207, guid: 5dd8f6569f65d7840aeb0049dc1ff4b0, type: 3}
+  Size: 1

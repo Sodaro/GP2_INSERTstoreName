@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf8e2db9256c7e4a89d5c798a0dcfa5, type: 3}
+  m_Name: KexData
+  m_EditorClassIdentifier: 
+  DisplayName: Chocolate
+  UISprite: {fileID: 21300000, guid: 3a1f204b181bac14c82487a9af0d95c5, type: 3}
+  ItemPrefab: {fileID: 1767198498289591670, guid: 4d8acceb47bf16c4db370c12ae022bba, type: 3}
+  Size: 1

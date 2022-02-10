@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf8e2db9256c7e4a89d5c798a0dcfa5, type: 3}
+  m_Name: SpikeData
+  m_EditorClassIdentifier: 
+  DisplayName: Soda
+  UISprite: {fileID: 21300000, guid: f6443a2700f13ae428c5d7ddfa4e5288, type: 3}
+  ItemPrefab: {fileID: 1031760464811228743, guid: 7a65103b5caeb9c479dfdc380b56e2aa, type: 3}
+  Size: 0

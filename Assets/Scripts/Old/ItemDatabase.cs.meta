@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 641aba0180661f9458bf99a0ec4e3473
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DefaultSprite: {instanceID: 0}
+  - BunsSprite: {fileID: 21300000, guid: f9ea4df5954fe13438fa31e3406945c4, type: 3}
+  - MilkSprite: {fileID: 21300000, guid: 467419f18488a6a459ad18666614f36f, type: 3}
+  - SpikeSprite: {fileID: 21300000, guid: f6443a2700f13ae428c5d7ddfa4e5288, type: 3}
+  - BreadSprite: {fileID: 21300000, guid: b3f14713ebb401140884a4ac066631f0, type: 3}
+  - CookiesSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

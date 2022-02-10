@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aba1c0e2630d944b9ab2d4fdaceabff, type: 3}
+  m_Name: FridgeCategory
+  m_EditorClassIdentifier: 
+  Name: Fridge
+  ItemData:
+  - {fileID: 11400000, guid: 43730a351d6236846bebce8c173ef6f6, type: 2}
+  - {fileID: 11400000, guid: aba9203c9e9c8944aadfb0a51aea1a63, type: 2}
+  - {fileID: 11400000, guid: f65769eb26658fe45b46fee4c20a6934, type: 2}
+  - {fileID: 11400000, guid: be91dfdeb82a73e43a7d805afddb2bed, type: 2}

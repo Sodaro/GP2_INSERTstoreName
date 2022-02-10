@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6594285865704886889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8184613981452371976}
+  - component: {fileID: 3273201500791701645}
+  - component: {fileID: -2876499976882776075}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8184613981452371976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594285865704886889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3273201500791701645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594285865704886889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32915327ea7416d4b8f7dc3df51ada61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Level complete
+    clip: {fileID: 8300000, guid: 4a9d42c44d5588d4d93991d8b517a246, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: InGameMusic
+    clip: {fileID: 8300000, guid: aa1991311e827824ca26b6f55fc9b9e6, type: 3}
+    volume: 0.02
+    pitch: 1
+    loop: 1
+    output: {fileID: 5559742274904408969, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: b0ac12034e793474ca4ee7c68277136a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: StoreNoise
+    clip: {fileID: 8300000, guid: 24a8301779c7d474dba8b9dc5c79d99d, type: 3}
+    volume: 0.04
+    pitch: 1
+    loop: 1
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Level1A_Event1
+    clip: {fileID: 8300000, guid: 954033c3139f3dc44b6c43b809317ebf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Level1A_RandEvent1
+    clip: {fileID: 8300000, guid: 9c1e5903da8ddd74c832aeb4ebc4ca05, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_LevelComp
+    clip: {fileID: 8300000, guid: acaf1129576ce76499aa0460f42a9ca5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_ListComp
+    clip: {fileID: 8300000, guid: 28310da8ee8ccb84593184760bfbb22d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_ListComp2
+    clip: {fileID: 8300000, guid: cd3542153a1ef2241bfbc0b636b14d17, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_ListComp3
+    clip: {fileID: 8300000, guid: 5f837409fa4a5104eab7ca06ae7dc350, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_Start
+    clip: {fileID: 8300000, guid: 4da9c239858e1894287852c9e699ea8a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Tutorial_OnFirstPickUp
+    clip: {fileID: 8300000, guid: 0691c62df64d9b0409dd92b424011439, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_LevelComp
+    clip: {fileID: 8300000, guid: 482e8a4519927464aa6df51f3ea0c397, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_ListPicked
+    clip: {fileID: 8300000, guid: d3aed74759da8f642baf58d5671e4c79, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_ListPicked2
+    clip: {fileID: 8300000, guid: fd783f063e821ca4f8d178a8335c4e9e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_Random
+    clip: {fileID: 8300000, guid: 540c8f3f69620bd4787904df3f53af09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_Start
+    clip: {fileID: 8300000, guid: adc1a58e56a9e5a44a11832b6d03cf87, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_Start2
+    clip: {fileID: 8300000, guid: 0e3d77cd0ad9c5b47bc10b0027d28a71, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: FreezerDoor
+    clip: {fileID: 8300000, guid: 5dfaf8d0584938a479f24b5e4c608d6b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: FridgeDoorClose
+    clip: {fileID: 8300000, guid: f65263866f75a894c92a520387cf19f0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: FridgeDoorOpen
+    clip: {fileID: 8300000, guid: 75aae3e81d9a5c54091e2d15c9abd69c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: FridgeDoorOpen
+    clip: {fileID: 8300000, guid: 75aae3e81d9a5c54091e2d15c9abd69c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Basket
+    clip: {fileID: 8300000, guid: 9c7820608ef265f4e993367f2dddc27c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: CorrectItem
+    clip: {fileID: 8300000, guid: 5651cdebc5e8f2c41a3b037f33f753f3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: CorrectItem2
+    clip: {fileID: 8300000, guid: 3468e3d042a222c469df6e21d66fe825, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: ItemHitGround
+    clip: {fileID: 8300000, guid: 5648d755b818d1646b511b2ec85a3114, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: PageFlip
+    clip: {fileID: 8300000, guid: a34df7d58f302c14887897ff02a11c7d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Pencil
+    clip: {fileID: 8300000, guid: bb649bea089ea09448de203e679c3dc0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Stamp
+    clip: {fileID: 8300000, guid: dcee6f6d47b5e2945929ebdb025797d4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: UI_Cancel
+    clip: {fileID: 8300000, guid: bafba8d86422d2b409db8c84c258c34e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: UI_Confirm
+    clip: {fileID: 8300000, guid: 275787afd6ede7e4ba2f520884523365, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: UI_Hover
+    clip: {fileID: 8300000, guid: 90d67207fec14ac43956912c71630742, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: UI_Popup
+    clip: {fileID: 8300000, guid: 6100a25eb6ed02c47b96651e5fb5f83f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: NightLevel
+    clip: {fileID: 8300000, guid: 300246a03ef878840bc10abc53a1bb2f, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    output: {fileID: 5559742274904408969, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: PaperAppear
+    clip: {fileID: 8300000, guid: c87413e72c3e0d74baed2a3eb2680c5a, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    output: {fileID: 5559742274904408969, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: PaperDisappear
+    clip: {fileID: 8300000, guid: 451a6856b10fbf048a8be9c9836cdbf1, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    output: {fileID: 5559742274904408969, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: AggroMusic
+    clip: {fileID: 8300000, guid: f09bb7ac67b50094ba1e1cc3c75146b8, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    output: {fileID: 5559742274904408969, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: ItemRunningOut_1
+    clip: {fileID: 8300000, guid: 2c138a7a60900d14bb1353aa60e69261, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: ItemRunningOut_2
+    clip: {fileID: 8300000, guid: efbe92534ab312e41bc7cd01ffce3547, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: ItemRunningOut_Short
+    clip: {fileID: 8300000, guid: 11107fb8de4302546819b050b332a22a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_LevelStart
+    clip: {fileID: 8300000, guid: 4166acbeaf9567c42a3593dc1e75adbf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Tutorial_GuardItemThrow
+    clip: {fileID: 8300000, guid: 8b33b5e7c1d831d43ab0a7ac9866c84a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Day_LevelCompList
+    clip: {fileID: 8300000, guid: 4a9d42c44d5588d4d93991d8b517a246, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Night_LevelCompList
+    clip: {fileID: 8300000, guid: 482e8a4519927464aa6df51f3ea0c397, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  - name: Guard_Gasp
+    clip: {fileID: 8300000, guid: eda375323ea7dca4e88158735e30e964, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    output: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+    source: {fileID: 0}
+  _voiceAudioSource: {fileID: -2876499976882776075}
+--- !u!82 &-2876499976882776075
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594285865704886889}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -7262450109934048641, guid: 138f29aa2fc004742870d7aecda4b0d8, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
